@@ -118,8 +118,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: #222222ad;
-  width: 90%;
-  /* max-width: 106%; */
+  width: 75%;
 }
 .header .container ul {
   flex: 1;
