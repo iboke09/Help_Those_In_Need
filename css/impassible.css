@@ -118,7 +118,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: #222222ad;
-  width: 100%;
+  width: 90%;
   /* max-width: 106%; */
 }
 .header .container ul {
@@ -1073,6 +1073,11 @@ iframe:hover {
   padding: 10px 20px;
 }
 
+@media (max-width: 1250px) {
+    .header .container{
+        width: 90%;
+    }
+}
 @media (max-width: 1200px) {
   .map .tutan {
     display: flex;
@@ -1329,6 +1334,9 @@ iframe:hover {
   .footer .box .social {
     justify-content: center;
   }
+  .header .container {
+    width: 100%;
+}
 }
 @media (max-width: 767px) {
   .footer .box .line {
@@ -1542,7 +1550,7 @@ iframe:hover {
   .header .toggle-menu {
     /* margin-left: 50%; */
     padding-right: 10px;
-    padding: 25px 10px;
+    padding: 25px 9px;
     left: auto;
     position: relative;
     z-index: 19999;
@@ -1642,3 +1650,4 @@ iframe:hover {
   }
 }
 /* End animation */
+
